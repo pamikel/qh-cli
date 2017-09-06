@@ -1,5 +1,7 @@
 # qh-cli
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/wudi0431/qh-cli.svg)](https://greenkeeper.io/)
+
 [![NPM version](https://img.shields.io/npm/v/qh-cli.svg?style=flat)](https://www.npmjs.com/package/qh-cli)
 
 [qh-cli](https://github.com/wudi0431/qh-cli) boilerplate generator.
