@@ -1,6 +1,6 @@
 {
   "name": "qh-cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "银天下前端构建工具",
   "main": "index.js",
   "bin": "./bin/qh",
