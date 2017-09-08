@@ -1,0 +1,13 @@
+version: '2'
+services:
+  node-future-base-service:
+    ports:
+      - "3000:3000"
+    image: "daocloud.io/baidao/node-future-base-service:20170616164128"
+    container_name: "node-future-base-service"
+    environment:
+      - NODE_ENV=production
+    restart: always
+    command: "node bin/www"
+    volumes:
+      - /alidata/logs/node-future-base-service:/var/workspace/logs

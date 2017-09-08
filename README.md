@@ -15,7 +15,9 @@ $ cnpm / npm install qh-cli -g
 ## Usage
 
 ```bash
-$ qh-cli init projectname
+$ qh-cli init projectname -f  ??????
+
+$ qh-cli init projectname -b  ??Node??
 
 $ cd projectname
 

@@ -1,0 +1,34 @@
+{
+	"appenders": [{
+		"type": "console"
+	}, {
+		"type": "file",
+		"filename": "logs/app.log",
+		"backups": 10,
+		"maxLogSize": 104857600,
+		"category": "app"
+	}, {
+		"type": "file",
+		"filename": "logs/db.log",
+		"backups": 10,
+		"maxLogSize": 104857600,
+		"category": "db"
+	}, {
+		"type": "file",
+		"filename": "logs/err.log",
+		"backups": 10,
+		"maxLogSize": 104857600,
+		"category": "err"
+	}, {
+		"type": "file",
+		"filename": "logs/third.log",
+		"backups": 10,
+		"maxLogSize": 104857600,
+		"category": "third"
+	}],
+	"levels": {
+		"app": "INFO",
+		"db": "INFO",
+		"err": "ERROR"
+	}
+}
