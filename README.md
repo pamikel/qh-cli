@@ -15,13 +15,13 @@ $ cnpm / npm install qh-cli -g
 ## Usage
 
 ```bash
-??????
-$ qh-cli init projectname -f
+$ created frontend project
+$ qh-cli init project-name -f
 
-??Node??
-$ qh-cli init projectname -b
+$ created node project
+$ qh-cli init node-project-name -b
 
-$ cd projectname
+$ cd project-name
 
 $ cnpm / npm install
 
